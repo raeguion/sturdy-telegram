@@ -3,13 +3,23 @@
 body {
     background-color: rgb(131, 181, 198);
     img{
-        width: 50vw
+        width: 100vw
     }
 
     p{
-        font-size: 20px;
-        color: aliceblue;
+        font-size: 30px;
+        /* color: aliceblue; */
         border: 2px dotted lightblue
         /* in Safari "dotted" is squares for some reason */
     }
+
+
+}
+
+canvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
 }

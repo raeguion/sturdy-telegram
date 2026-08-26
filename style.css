@@ -1,0 +1,15 @@
+/* this is how you format comments in .css */
+
+body {
+    background-color: rgb(131, 181, 198);
+    img{
+        width: 50vw
+    }
+
+    p{
+        font-size: 20px;
+        color: aliceblue;
+        border: 2px dotted lightblue
+        /* in Safari "dotted" is squares for some reason */
+    }
+}

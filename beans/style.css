@@ -1,0 +1,28 @@
+#beans {
+    background-image: url(beansbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+.white-link {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+.white-link:hover {
+    color: black;
+    -webkit-text-stroke: 2px white;
+}

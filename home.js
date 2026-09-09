@@ -1,5 +1,3 @@
-// this is how you format comments in .html
-
 let points = [];
 
 function setup() {

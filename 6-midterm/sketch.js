@@ -196,8 +196,8 @@ function draw() {
   if (bugs.length === 0) {
     globalIdCounter = 0;
     globalLitterCounter = 0;
-    spawnInitialParents();
     totalPopulation = 6;
+    spawnInitialParents();
     isFirstBirth = true;
   }
 

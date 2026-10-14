@@ -10,7 +10,7 @@ let birthChance;
 
 // no touchy
 let bugs = [];
-let totalPopulation = 6; // starting population
+let totalPopulation = random(4,10); // starting population
 let isFirstBirth = true; // sets the fertility to 100% for the first mating event
 let img;
 
@@ -197,7 +197,7 @@ function draw() {
     globalIdCounter = 0;
     globalLitterCounter = 0;
     spawnInitialParents();
-    totalPopulation = 6;
+    totalPopulation = random(4,10);
     isFirstBirth = true;
   }
 

@@ -10,7 +10,7 @@ let birthChance;
 
 // no touchy
 let bugs = [];
-let totalPopulation = 6; // starting population
+let totalPopulation; // starting population
 let isFirstBirth = true; // sets the fertility to 100% for the first mating event
 let img;
 
@@ -22,6 +22,7 @@ let globalLitterCounter = 0;
 let popSlider, chanceSlider, lifespanSlider;
 
 async function setup() {
+  let totalPopulation = int(random(4,13)); // starting population 
   createCanvas(windowWidth, windowHeight - 50);
   background(255);
   img = await loadImage("leaves.jpg");
@@ -196,7 +197,7 @@ function draw() {
   if (bugs.length === 0) {
     globalIdCounter = 0;
     globalLitterCounter = 0;
-    totalPopulation = 6;
+    totalPopulation = int(random(4,13));
     spawnInitialParents();
     isFirstBirth = true;
   }
